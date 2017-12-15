@@ -1,5 +1,5 @@
 function objects(obj, key, value) {
-  var playlist = objects [{artistName: 'songTitles'}];
+  var playlist = object [{artistName: 'songTitles'}];
   return playlist;
 }
 
