@@ -1,6 +1,6 @@
 function objects(obj, key, value) {
-  var object = playlist {artistName: 'songTitles'};
-  return object;
+  var playlist = object {artistName: 'songTitles'};
+  return playlist;
 }
 
 function updatePlaylist(playlist, artistName, songTitle) {
