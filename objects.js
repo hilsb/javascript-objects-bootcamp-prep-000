@@ -1,10 +1,11 @@
 function objects(obj, key, value) {
-  var playlist = object {artistName: 'songTitles'};
+  var playlist = {artistName: 'songTitles'};
+  var object = playlist ({artistName: 'songTitles'});
   return playlist;
 }
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  add playlist.{artistName: songTitle};
+  add playlist.artistName: songTitle;
   return playlist;
 }
 
