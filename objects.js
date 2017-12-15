@@ -1,10 +1,9 @@
 function createPlaylist(artistName, songTitle) {
-  var obj = {[artistName]: 'songTitles'};
+  var obj = {[artistName]: songTitle};
   return obj;
-  var playlist = createPlaylist{};
 }
 
-
+  var playlist = createPlaylist();
 
 function updatePlaylist(playlist, artistName, songTitle) {
   var playlist = {artistName, "songTitle"};
