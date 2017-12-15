@@ -3,7 +3,7 @@ function createPlaylist(artistName, songTitle) {
   return obj;
 }
 
-var playlist = createPlaylist("Kanye West", "Golddigger");
+var playlist = createPlaylist{};
 
 function updatePlaylist(playlist, artistName, songTitle) {
   var playlist = {artistName, "songTitle"};
