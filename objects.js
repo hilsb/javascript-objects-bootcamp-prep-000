@@ -4,7 +4,7 @@ function object(obj, key, value) {
 }
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  var playlist = {"Phil Ochs": "Here\'s to the State of Mississippi"};
+  var playlist = {artistName: "songTitle"};
   playlist = ["Phil Ochs: "Here\'s to the State of Mississippi'];
   return playlist;
 }
