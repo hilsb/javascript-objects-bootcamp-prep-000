@@ -4,7 +4,7 @@ function objects(obj, key, value) {
 }
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  add playlist.artistName: songTitle;
+  add playlist.{artistName: songTitle};
   return playlist;
 }
 
